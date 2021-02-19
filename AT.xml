@@ -723,20 +723,6 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			<ModType>Regular</ModType>
 			<MD5>2d0457fc2c10dbcd705b28c326954042</MD5>
 		</Module>
-		<Module name="MalisisCore" id="malisiscore" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/malisiscore-1.12.2-6.5.1.jar.disabled</URL>
-			<Size>1939783</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>ccc183a97d7b9688a49bf29b61343f49</MD5>
-			<Meta>
-				<credits></credits>
-				<description>MalisisCore is a framework dedicated to simplify many processes required during a mod development.</description>
-				<version>1.12.2-6.5.1-SNAPSHOT</version>
-				<url>http://github.com/Ordinastie/MalisisCore</url>
-				<authors>Ordinastie, PaleoCrafter, AlmuraDev</authors>
-			</Meta>
-		</Module>
 		<Module name="Mantle" id="mantle" depends="" side="BOTH">
 			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Mantle-1.12-1.3.3.55.jar</URL>
 			<Size>843486</Size>
