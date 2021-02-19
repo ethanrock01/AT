@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="at-modpack" abstract="false" name="Alpha Tau" newsUrl="about:blank" version="1.12.2" generateList="true" autoConnect="true" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="at-modpack" abstract="false" name="Alpha Tau" newsUrl="about:blank" version="1.12.2" generateList="true" -mcserver 135.148.14.45 autoConnect="true" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Loader type="Forge" version="14.23.5.2854" loadOrder="0"/>
 		<Module name="Actually Additions" id="actuallyadditions" depends="" side="BOTH">
 			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ActuallyAdditions-1.12.2-r152.jar</URL>
@@ -333,20 +333,6 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<version>8.1.9</version>
 				<url>http://balyware.com</url>
 				<authors>BlayTheNinth</authors>
-			</Meta>
-		</Module>
-		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/CraftTweaker2-1.12-4.1.20.618.jar</URL>
-			<Size>1523777</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>b44e6d90134f8f6cef88487d0152a372</MD5>
-			<Meta>
-				<credits>Created By StanHebben and Jaredlll08</credits>
-				<description>Customize your minecraft experience!</description>
-				<version>1.12-4.1.20.618</version>
-				<url>http://minetweaker3.powerofbytes.com</url>
-				<authors>StanHebben, Jaredlll08</authors>
 			</Meta>
 		</Module>
 		<Module name="CTM" id="ctm" depends="" side="BOTH">
