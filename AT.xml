@@ -1265,6 +1265,12 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 				<authors>BlayTheNinth</authors>
 			</Meta>
 		</Module>
+		<Module name="aether_ii-1.12.2-0.3.0+build411-universal" id="Aether2" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/aether_ii-1.12.2-0.3.0%2Bbuild411-universal.jar</URL>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>08d280804a44da7c6bc637067d7c90bf</MD5>
+		</Module>
 		<Module name="Hats-1.12.2-7.1.1" id="Hatmod" depends="" side="BOTH">
 			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Hats-1.12.2-7.1.1.jar</URL>
 			<Required>true</Required>
