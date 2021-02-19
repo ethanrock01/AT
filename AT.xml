@@ -1281,11 +1281,5 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			<ModType>Regular</ModType>
 			<MD5>f6bf337a09fcfa19aedc840f19cac222</MD5>
 		</Module>
-		<Module name="CodeChicken Lib 1.12.2-3.2.3.358-universal" id="Codechickenlib" depends="" side="BOTH">
-			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8/download/2779848/file</URL>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>3b5e44db5ac96fb23a439590b6731a31</MD5>
-		</Module>
 	</Server>
 </ServerPack>
