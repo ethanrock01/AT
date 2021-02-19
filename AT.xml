@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="at-modpack" abstract="false" name="Alpha Tau" newsUrl="about:blank" version="1.12.2" generateList="true" autoConnect="true" revision="1.01" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="at-modpack" abstract="false" name="Alpha Tau" newsUrl="about:blank" version="1.12.2" generateList="true" autoConnect="true" revision="1.02" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Loader type="Forge" version="1.12.2-14.23.5.2854" loadOrder="0"/>
 		<Module name="Actually Additions" id="actuallyadditions" depends="" side="BOTH">
 			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/ActuallyAdditions-1.12.2-r152.jar</URL>
@@ -1269,11 +1269,23 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			<ModType>Regular</ModType>
 			<MD5>0240341ea62df45ba76ab8c54d8d127c</MD5>
 		</Module>
-				<Module name="buildcraft-all-7.99.24.8" id="Buildcraft" depends="" side="BOTH">
+		<Module name="buildcraft-all-7.99.24.8" id="Buildcraft" depends="" side="BOTH">
 			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/buildcraft-all-7.99.24.8.jar</URL>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>df73e94d29b8c6bde42c451ff6018761</MD5>
+		</Module>
+		<Module name="Chicken Chunks 1.12.2-2.4.2.74-universal" id="ChickenChunks" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/chicken-chunks-1-8/download/2755785/file</URL>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f6bf337a09fcfa19aedc840f19cac222</MD5>
+		</Module>
+		<Module name="CodeChicken Lib 1.12.2-3.2.3.358-universal" id="Codechickenlib" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8/download/2779848/file</URL>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3b5e44db5ac96fb23a439590b6731a31</MD5>
 		</Module>
 	</Server>
 </ServerPack>
