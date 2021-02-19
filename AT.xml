@@ -426,8 +426,10 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>a104e76eaddd40f0d88444f42a22ea83</MD5>
 		</Module>
-		<Module name="EnderCore-mod-folder" id="EnderCoreMod" depends="" side="BOTH">
+		<Module name="EnderCore-1.12.2-0.5.76.jar" id="EnderCoreMod" depends="" side="BOTH">
 			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/EnderCore-1.12.2-0.5.76.jar</URL>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
 		</Module>
 		<Module name="EnderStorage" id="enderstorage" depends="" side="BOTH">
 			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/EnderStorage-1.12.2-2.4.6.137-universal.jar</URL>
