@@ -95,7 +95,7 @@
 			</Meta>
 		</Module>
 		</Module>
-		<Module name="EnderCore" id="EnderCore" depends="" side="BOTH">
+		<Module name="EnderCore-1.12.2-0.5.76.jar" id="EnderCore" depends="" side="BOTH">
 			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/endercore/download/2972849</URL>
 			<Size>647956</Size>
 			<Required>true</Required>
