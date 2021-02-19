@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.01" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="at-modpack" abstract="false" name="Alpha Tau" newsUrl="about:blank" version="1.12.2" generateList="true" -mcserver 135.148.14.45 autoConnect="true" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
@@ -800,12 +800,6 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>feldim2425</authors>
 			</Meta>
 		</Module>
-		<Module name="NuclearCraft-2.18y-1.12.2.jar" id="NuclearCraft" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/NuclearCraft-2.18y-1.12.2.jar</URL>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>aea0ae1694ea4391310e940bee614647</MD5>
-		</Module>
 		<Module name="Morpheus" id="morpheus" depends="" side="BOTH">
 			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Morpheus-1.12.2-3.5.106.jar</URL>
 			<Size>21508</Size>
@@ -1264,6 +1258,12 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 				<url></url>
 				<authors>BlayTheNinth</authors>
 			</Meta>
+		</Module>
+		<Module name="NuclearCraft-2.18y-1.12.2" id="NuclearCraft" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/NuclearCraft-2.18y-1.12.2.jar</URL>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>aea0ae1694ea4391310e940bee614647</MD5>
 		</Module>
 	</Server>
 </ServerPack>
