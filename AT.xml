@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.00" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="at-modpack" abstract="false" name="Alpha Tau" newsUrl="about:blank" version="1.12.2" generateList="true" autoConnect="true" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
@@ -333,20 +333,6 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<version>8.1.9</version>
 				<url>http://balyware.com</url>
 				<authors>BlayTheNinth</authors>
-			</Meta>
-		</Module>
-		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/CraftTweaker2-1.12-4.1.20.618.jar</URL>
-			<Size>1523777</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>b44e6d90134f8f6cef88487d0152a372</MD5>
-			<Meta>
-				<credits>Created By StanHebben and Jaredlll08</credits>
-				<description>Customize your minecraft experience!</description>
-				<version>1.12-4.1.20.618</version>
-				<url>http://minetweaker3.powerofbytes.com</url>
-				<authors>StanHebben, Jaredlll08</authors>
 			</Meta>
 		</Module>
 		<Module name="CTM" id="ctm" depends="" side="BOTH">
@@ -800,11 +786,6 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			<ModType>Regular</ModType>
 			<MD5>db0d1e7966382663d3b0888e26a8ded1</MD5>
 		</Module>
-		<Module name="Minecraft Forge" id="forge-14.23.5.2854" depends="" side="BOTH">
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-		</Module>
 		<Module name="MoreOverlays" id="moreoverlays" depends="" side="BOTH">
 			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/moreoverlays-1.15.1-mc1.12.2.jar</URL>
 			<Size>51284</Size>
@@ -820,7 +801,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="Morph" id="morph" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Morph-1.12.2-7.2.1.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Morph-1.12.2-7.2.1.jar</URL>
 			<Size>1061182</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1291,6 +1272,12 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 				<url></url>
 				<authors>BlayTheNinth</authors>
 			</Meta>
+		</Module>
+		<Module name="NuclearCraft-2.18y-1.12.2" id="NuclearCraft" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/NuclearCraft-2.18y-1.12.2.jar</URL>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>aea0ae1694ea4391310e940bee614647</MD5>
 		</Module>
 	</Server>
 </ServerPack>
