@@ -800,12 +800,6 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			<ModType>Regular</ModType>
 			<MD5>db0d1e7966382663d3b0888e26a8ded1</MD5>
 		</Module>
-		<Module name="Minecraft Forge" id="forge-14.23.5.2854" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/forge-1.12.2-14.23.5.2854-universal.jar</URL>
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-		</Module>
 		<Module name="MoreOverlays" id="moreoverlays" depends="" side="BOTH">
 			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/moreoverlays-1.15.1-mc1.12.2.jar</URL>
 			<Size>51284</Size>
