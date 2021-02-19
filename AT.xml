@@ -1269,5 +1269,11 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			<ModType>Regular</ModType>
 			<MD5>0240341ea62df45ba76ab8c54d8d127c</MD5>
 		</Module>
+				<Module name="buildcraft-all-7.99.24.8" id="Buildcraft" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/buildcraft-all-7.99.24.8.jar</URL>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>df73e94d29b8c6bde42c451ff6018761</MD5>
+		</Module>
 	</Server>
 </ServerPack>
