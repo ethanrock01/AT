@@ -4,7 +4,7 @@
 	<Server id="at-modpack" abstract="false" name="Alpha Tau" newsUrl="about:blank" version="1.12.2" generateList="true" autoConnect="true" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Loader type="Forge" version="1.12.2-14.23.5.2854" loadOrder="0"/>
 		<Module name="Actually Additions" id="actuallyadditions" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ActuallyAdditions-1.12.2-r152.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/ActuallyAdditions-1.12.2-r152.jar</URL>
 			<Size>2958699</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -18,7 +18,7 @@
 			</Meta>
 		</Module>
 		<Module name="AppleSkin" id="appleskin" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/AppleSkin-mc1.12-1.0.14.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/AppleSkin-mc1.12-1.0.14.jar</URL>
 			<Size>33683</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -32,7 +32,7 @@
 			</Meta>
 		</Module>
 		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/appliedenergistics2-rv6-stable-7.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/appliedenergistics2-rv6-stable-7.jar</URL>
 			<Size>4062630</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -46,7 +46,7 @@
 			</Meta>
 		</Module>
 		<Module name="ArchitectureCraft" id="architecturecraft" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/architecturecraft-1.12-3.98.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/architecturecraft-1.12-3.98.jar</URL>
 			<Size>921733</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -60,7 +60,7 @@
 			</Meta>
 		</Module>
 		<Module name="Aroma1997Core" id="aroma1997core" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Aroma1997Core-1.12.2-2.0.0.2.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Aroma1997Core-1.12.2-2.0.0.2.jar</URL>
 			<Size>398634</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -74,14 +74,14 @@
 			</Meta>
 		</Module>
 		<Module name="AutoConfig-1.12.2-1.0.2.jar" id="autoconfig" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/memory_repo/info/loenwind/autoconfig/AutoConfig/1.12.2-1.0.2/AutoConfig-1.12.2-1.0.2.jar.meta</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/memory_repo/info/loenwind/autoconfig/AutoConfig/1.12.2-1.0.2/AutoConfig-1.12.2-1.0.2.jar.meta</URL>
 			<Size>6735</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>56f633fc5678ab56256cf80f9c3437c2</MD5>
 		</Module>
 		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/AutoRegLib-1.3-32.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/AutoRegLib-1.3-32.jar</URL>
 			<Size>108306</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -95,14 +95,14 @@
 			</Meta>
 		</Module>
 		<Module name="AutoSave-1.12.2-1.0.11.jar" id="autosave" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/memory_repo/info/loenwind/autosave/AutoSave/1.12.2-1.0.11/AutoSave-1.12.2-1.0.11.jar.meta</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/memory_repo/info/loenwind/autosave/AutoSave/1.12.2-1.0.11/AutoSave-1.12.2-1.0.11.jar.meta</URL>
 			<Size>8002</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>70a04c0c9daa2448e5fc69374fe9c884</MD5>
 		</Module>
 		<Module name="BD Lib" id="bdlib" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/bdlib-1.14.3.12-mc1.12.2.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/bdlib-1.14.3.12-mc1.12.2.jar</URL>
 			<Size>1962731</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -116,7 +116,7 @@
 			</Meta>
 		</Module>
 		<Module name="Better Advancements" id="betteradvancements" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/BetterAdvancements-1.12.2-0.1.0.77.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/BetterAdvancements-1.12.2-0.1.0.77.jar</URL>
 			<Size>62668</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -130,14 +130,14 @@
 			</Meta>
 		</Module>
 		<Module name="BetterFps-1.4.8" id="betterfps" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/BetterFps-1.4.8.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/BetterFps-1.4.8.jar</URL>
 			<Size>155196</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>d36f4d3c0f96e99a9a1ad2e8eeda1fc4</MD5>
 		</Module>
 		<Module name="Biomes O&apos; Plenty" id="biomesoplenty" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar</URL>
 			<Size>4696621</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -151,7 +151,7 @@
 			</Meta>
 		</Module>
 		<Module name="Brandon&apos;s Core" id="brandonscore" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/BrandonsCore-1.12.2-2.4.19.214-universal.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/BrandonsCore-1.12.2-2.4.19.214-universal.jar</URL>
 			<Size>828580</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -165,7 +165,7 @@
 			</Meta>
 		</Module>
 		<Module name="Building Gadgets" id="buildinggadgets" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/BuildingGadgets-2.8.4.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/BuildingGadgets-2.8.4.jar</URL>
 			<Size>719492</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -179,7 +179,7 @@
 			</Meta>
 		</Module>
 		<Module name="Carry On" id="carryon" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/carryon-1.12.2-1.12.3.15.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/carryon-1.12.2-1.12.3.15.jar</URL>
 			<Size>319099</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -193,7 +193,7 @@
 			</Meta>
 		</Module>
 		<Module name="Chameleon" id="chameleon" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Chameleon-1.12-4.1.3.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Chameleon-1.12-4.1.3.jar</URL>
 			<Size>96859</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -207,14 +207,14 @@
 			</Meta>
 		</Module>
 		<Module name="ChickenASM-1.12-1.0.2.7" id="chickenasm" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/1.12.2/ChickenASM-1.12-1.0.2.7.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/1.12.2/ChickenASM-1.12-1.0.2.7.jar</URL>
 			<Size>55622</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>6afc6ad00fd6bacd0c5b35d8342f0f79</MD5>
 		</Module>
 		<Module name="Chisel" id="chisel" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Chisel-MC1.12.2-1.0.2.45.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Chisel-MC1.12.2-1.0.2.45.jar</URL>
 			<Size>4755282</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -231,7 +231,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="Chisels &amp; Bits" id="chiselsandbits" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/chiselsandbits-14.33.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/chiselsandbits-14.33.jar</URL>
 			<Size>737407</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -245,7 +245,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="Client Tweaks" id="clienttweaks" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ClientTweaks_1.12.2-3.1.11.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/ClientTweaks_1.12.2-3.1.11.jar</URL>
 			<Size>30515</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -259,7 +259,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="Clumps" id="clumps" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Clumps-3.1.2.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Clumps-3.1.2.jar</URL>
 			<Size>13792</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -273,7 +273,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar</URL>
 			<Size>704330</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -287,7 +287,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="CoFH Core" id="cofhcore" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/CoFHCore-1.12.2-4.6.6.1-universal.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/CoFHCore-1.12.2-4.6.6.1-universal.jar</URL>
 			<Size>848187</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -301,7 +301,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="CoFH World" id="cofhworld" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/CoFHWorld-1.12.2-1.4.0.1-universal.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/CoFHWorld-1.12.2-1.4.0.1-universal.jar</URL>
 			<Size>505987</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -315,14 +315,14 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="config" id="config" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/config.zip</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/config.zip</URL>
 			<Size>1122382</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>560c97669dcbe634f0517fc0ba866945</MD5>
 		</Module>
 		<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/CraftingTweaks_1.12.2-8.1.9.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/CraftingTweaks_1.12.2-8.1.9.jar</URL>
 			<Size>97854</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -336,7 +336,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="CTM" id="ctm" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/CTM-MC1.12.2-1.0.2.31.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/CTM-MC1.12.2-1.0.2.31.jar</URL>
 			<Size>199045</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -350,7 +350,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="Cyclic" id="cyclicmagic" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Cyclic-1.12.2-1.20.8.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Cyclic-1.12.2-1.20.8.jar</URL>
 			<Size>3991322</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -364,7 +364,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="Draconic Evolution" id="draconicevolution" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Draconic-Evolution-1.12.2-2.3.27.353-universal.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Draconic-Evolution-1.12.2-2.3.27.353-universal.jar</URL>
 			<Size>5708541</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -378,7 +378,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="Elevator Mod" id="elevatorid" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ElevatorMod-1.12.2-1.4.1.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/ElevatorMod-1.12.2-1.4.1.jar</URL>
 			<Size>105538</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -392,7 +392,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="Ender IO" id="enderio" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/EnderIO-1.12.2-5.2.66.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/EnderIO-1.12.2-5.2.66.jar</URL>
 			<Size>8846109</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -406,14 +406,14 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="EnderCore-1.12.2-0.5.76-core.jar" id="endercore" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/memory_repo/com/enderio/core/EnderCore/1.12.2-0.5.76/EnderCore-1.12.2-0.5.76-core.jar.meta</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/memory_repo/com/enderio/core/EnderCore/1.12.2-0.5.76/EnderCore-1.12.2-0.5.76-core.jar.meta</URL>
 			<Size>2921</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>a104e76eaddd40f0d88444f42a22ea83</MD5>
 		</Module>
 		<Module name="EnderStorage" id="enderstorage" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/EnderStorage-1.12.2-2.4.6.137-universal.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/EnderStorage-1.12.2-2.4.6.137-universal.jar</URL>
 			<Size>223250</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -427,7 +427,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="Extra Utilities 2" id="extrautils2" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/extrautils2-1.12-1.9.9.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/extrautils2-1.12-1.9.9.jar</URL>
 			<Size>3226408</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -441,7 +441,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="Fast Leaf Decay" id="fastleafdecay" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/FastLeafDecay-v14.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/FastLeafDecay-v14.jar</URL>
 			<Size>5200</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -457,7 +457,7 @@ Check out the config to change the decay rate!</description>
 			</Meta>
 		</Module>
 		<Module name="FastFurnace" id="fastfurnace" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/FastFurnace-1.12.2-1.3.1.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/FastFurnace-1.12.2-1.3.1.jar</URL>
 			<Size>10035</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -471,7 +471,7 @@ Check out the config to change the decay rate!</description>
 			</Meta>
 		</Module>
 		<Module name="FastWorkbench" id="fastbench" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/FastWorkbench-1.12.2-1.7.3.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/FastWorkbench-1.12.2-1.7.3.jar</URL>
 			<Size>26515</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -485,7 +485,7 @@ Check out the config to change the decay rate!</description>
 			</Meta>
 		</Module>
 		<Module name="Forestry" id="forestry" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/forestry_1.12.2-5.8.2.387.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/forestry_1.12.2-5.8.2.387.jar</URL>
 			<Size>5232265</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -499,7 +499,7 @@ Check out the config to change the decay rate!</description>
 			</Meta>
 		</Module>
 		<Module name="Forge Multipart CBE" id="forgemultipartcbe" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ForgeMultipart-1.12.2-2.6.2.83-universal.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/ForgeMultipart-1.12.2-2.6.2.83-universal.jar</URL>
 			<Size>1304958</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -513,7 +513,7 @@ Check out the config to change the decay rate!</description>
 			</Meta>
 		</Module>
 		<Module name="FTB Library" id="ftblib" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/FTBLib-5.4.7.2.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/FTBLib-5.4.7.2.jar</URL>
 			<Size>934370</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -527,7 +527,7 @@ Check out the config to change the decay rate!</description>
 			</Meta>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/FTBUtilities-5.4.1.131.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/FTBUtilities-5.4.1.131.jar</URL>
 			<Size>425832</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -541,21 +541,21 @@ Check out the config to change the decay rate!</description>
 			</Meta>
 		</Module>
 		<Module name="Galacticraft-Planets-1.12.2-4.0.2.281" id="galacticraftplanets" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Galacticraft-Planets-1.12.2-4.0.2.281.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Galacticraft-Planets-1.12.2-4.0.2.281.jar</URL>
 			<Size>3987531</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>84908698e7ea6b8d3a22e98f260cf3af</MD5>
 		</Module>
 		<Module name="GalacticraftCore-1.12.2-4.0.2.281" id="galacticraftcore" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/GalacticraftCore-1.12.2-4.0.2.281.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/GalacticraftCore-1.12.2-4.0.2.281.jar</URL>
 			<Size>10631329</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>02dcb094b4de11028c196c44b0debe3b</MD5>
 		</Module>
 		<Module name="iChunUtil" id="ichunutil" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/iChunUtil-1.12.2-7.2.2.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/iChunUtil-1.12.2-7.2.2.jar</URL>
 			<Size>581963</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -569,7 +569,7 @@ Check out the config to change the decay rate!</description>
 			</Meta>
 		</Module>
 		<Module name="Immersive Engineering" id="immersiveengineering" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ImmersiveEngineering-0.12-98.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/ImmersiveEngineering-0.12-98.jar</URL>
 			<Size>6360959</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -583,7 +583,7 @@ Check out the config to change the decay rate!</description>
 			</Meta>
 		</Module>
 		<Module name="Immersive Petroleum" id="immersivepetroleum" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/immersivepetroleum-1.12.2-1.1.9.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/immersivepetroleum-1.12.2-1.1.9.jar</URL>
 			<Size>906018</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -597,14 +597,14 @@ Check out the config to change the decay rate!</description>
 			</Meta>
 		</Module>
 		<Module name="ImmersiveEngineering-core-0.12-98.jar" id="immersiveengineeringcore" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-98/ImmersiveEngineering-core-0.12-98.jar.meta</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-98/ImmersiveEngineering-core-0.12-98.jar.meta</URL>
 			<Size>165</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>e62798c555f5520c31a7efb68c0ba170</MD5>
 		</Module>
 		<Module name="Industrial Foregoing" id="industrialforegoing" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/industrialforegoing-1.12.2-1.12.13-237.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/industrialforegoing-1.12.2-1.12.13-237.jar</URL>
 			<Size>1603134</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -618,7 +618,7 @@ Check out the config to change the decay rate!</description>
 			</Meta>
 		</Module>
 		<Module name="Inventory Tweaks" id="InvTweaks" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/InventoryTweaks-1.63.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/InventoryTweaks-1.63.jar</URL>
 			<Size>263258</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -632,7 +632,7 @@ Check out the config to change the decay rate!</description>
 			</Meta>
 		</Module>
 		<Module name="Iron Chest" id="ironchest" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ironchest-1.12.2-7.0.72.847.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/ironchest-1.12.2-7.0.72.847.jar</URL>
 			<Size>956692</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -647,7 +647,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="JEI Integration" id="jeiintegration" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/jeiintegration_1.12.2-1.6.0.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/jeiintegration_1.12.2-1.6.0.jar</URL>
 			<Size>25196</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -661,7 +661,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="JourneyMap" id="journeymap" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/journeymap-1.12.2-5.7.1.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/journeymap-1.12.2-5.7.1.jar</URL>
 			<Size>6990968</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -675,7 +675,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/jei_1.12.2-4.16.1.301.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/jei_1.12.2-4.16.1.301.jar</URL>
 			<Size>653211</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -689,7 +689,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="Just Enough Resources" id="jeresources" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/JustEnoughResources-1.12.2-0.9.2.60.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/JustEnoughResources-1.12.2-0.9.2.60.jar</URL>
 			<Size>222270</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -703,7 +703,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="LLibrary" id="llibrary" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/llibrary-1.7.20-1.12.2.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/llibrary-1.7.20-1.12.2.jar</URL>
 			<Size>884550</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -717,14 +717,14 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="llibrary-core-1.0.11-1.12.2.jar" id="llibrarycore" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/memory_repo/net/ilexiconn/llibrary-core/1.0.11-1.12.2/llibrary-core-1.0.11-1.12.2.jar.meta</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/memory_repo/net/ilexiconn/llibrary-core/1.0.11-1.12.2/llibrary-core-1.0.11-1.12.2.jar.meta</URL>
 			<Size>8527</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>2d0457fc2c10dbcd705b28c326954042</MD5>
 		</Module>
 		<Module name="Mantle" id="mantle" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Mantle-1.12-1.3.3.55.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Mantle-1.12-1.3.3.55.jar</URL>
 			<Size>843486</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -738,7 +738,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="McJtyLib" id="mcjtylib_ng" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/mcjtylib-1.12-3.5.4.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/mcjtylib-1.12-3.5.4.jar</URL>
 			<Size>544856</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -752,7 +752,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="Mekanism" id="mekanism" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Mekanism-1.12.2-9.8.3.390.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Mekanism-1.12.2-9.8.3.390.jar</URL>
 			<Size>7863657</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -766,14 +766,14 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="MicdoodleCore-1.12.2-4.0.2.281" id="micdoodlecore" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/MicdoodleCore-1.12.2-4.0.2.281.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/MicdoodleCore-1.12.2-4.0.2.281.jar</URL>
 			<Size>53300</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>db0d1e7966382663d3b0888e26a8ded1</MD5>
 		</Module>
 		<Module name="MoreOverlays" id="moreoverlays" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/moreoverlays-1.15.1-mc1.12.2.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/moreoverlays-1.15.1-mc1.12.2.jar</URL>
 			<Size>51284</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -793,7 +793,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			<MD5>aea0ae1694ea4391310e940bee614647</MD5>
 		</Module>
 		<Module name="Morpheus" id="morpheus" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Morpheus-1.12.2-3.5.106.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Morpheus-1.12.2-3.5.106.jar</URL>
 			<Size>21508</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -807,7 +807,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="Mouse Tweaks" id="mousetweaks" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/MouseTweaks-2.10-mc1.12.2.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/MouseTweaks-2.10-mc1.12.2.jar</URL>
 			<Size>75170</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -821,7 +821,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="Mowzie&apos;s Mobs" id="mowziesmobs" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/mowziesmobs-1.5.8.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/mowziesmobs-1.5.8.jar</URL>
 			<Size>5185246</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -835,7 +835,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="OpenBlocks" id="openblocks" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/OpenBlocks-1.12.2-1.8.1.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/OpenBlocks-1.12.2-1.8.1.jar</URL>
 			<Size>3217616</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -849,7 +849,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="OpenModsLib" id="openmods" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/OpenModsLib-1.12.2-0.12.2.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/OpenModsLib-1.12.2-0.12.2.jar</URL>
 			<Size>2639587</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -863,14 +863,14 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="OptiFine_1.12.2_HD_U_G5" id="optifine_" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/OptiFine_1.12.2_HD_U_G5.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/OptiFine_1.12.2_HD_U_G5.jar</URL>
 			<Size>2669107</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>54e561e441192cf009803ae95873c5d0</MD5>
 		</Module>
 		<Module name="OreExcavation" id="oreexcavation" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/OreExcavation-1.4.150.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/OreExcavation-1.4.150.jar</URL>
 			<Size>184743</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -884,7 +884,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="p455w0rd&apos;s Library" id="p455w0rdslib" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/p455w0rdslib-1.12.2-2.3.161.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/p455w0rdslib-1.12.2-2.3.161.jar</URL>
 			<Size>328793</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -898,7 +898,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="Patchouli" id="patchouli" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Patchouli-1.0-23.6.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Patchouli-1.0-23.6.jar</URL>
 			<Size>472464</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -912,7 +912,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="Phosphor Lighting Engine" id="phosphor-lighting" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/phosphor-forge-mc1.12.2-0.2.7-universal.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/phosphor-forge-mc1.12.2-0.2.7-universal.jar</URL>
 			<Size>920264</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -930,7 +930,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="Placebo" id="placebo" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Placebo-1.12.2-1.6.0.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Placebo-1.12.2-1.6.0.jar</URL>
 			<Size>76902</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -944,7 +944,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="Quark" id="quark" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Quark-r1.6-179.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Quark-r1.6-179.jar</URL>
 			<Size>3877577</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -958,7 +958,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="RandomPatches" id="randompatches" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/randompatches-1.12.2-1.22.1.10.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/randompatches-1.12.2-1.22.1.10.jar</URL>
 			<Size>293231</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -972,7 +972,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="ReAuth" id="reauth" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/reauth-3.6.0.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/reauth-3.6.0.jar</URL>
 			<Size>30446</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -986,7 +986,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="Redstone Flux" id="redstoneflux" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/RedstoneFlux-1.12-2.1.1.1-universal.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/RedstoneFlux-1.12-2.1.1.1-universal.jar</URL>
 			<Size>31802</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1000,7 +1000,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="Refined Storage" id="refinedstorage" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/refinedstorage-1.6.16.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/refinedstorage-1.6.16.jar</URL>
 			<Size>1912377</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1014,7 +1014,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="Refined Storage Addons" id="refinedstorageaddons" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/refinedstorageaddons-0.4.5.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/refinedstorageaddons-0.4.5.jar</URL>
 			<Size>26804</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1028,7 +1028,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="RFTools" id="rftools" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/rftools-1.12-7.73.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/rftools-1.12-7.73.jar</URL>
 			<Size>2895803</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1042,7 +1042,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="Shadowfacts&apos; Forgelin" id="forgelin" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Forgelin-1.8.4.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Forgelin-1.8.4.jar</URL>
 			<Size>6278399</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1056,7 +1056,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="Storage Drawers" id="storagedrawers" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/StorageDrawers-1.12.2-5.4.2.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/StorageDrawers-1.12.2-5.4.2.jar</URL>
 			<Size>605947</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1070,7 +1070,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="Tesla Core Lib" id="teslacorelib" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/tesla-core-lib-1.12.2-1.0.17.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/tesla-core-lib-1.12.2-1.0.17.jar</URL>
 			<Size>1138988</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1084,7 +1084,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="The One Probe" id="theoneprobe" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/theoneprobe-1.12-1.4.28.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/theoneprobe-1.12-1.4.28.jar</URL>
 			<Size>301893</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1098,7 +1098,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="The Twilight Forest" id="twilightforest" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/twilightforest-1.12.2-3.11.1021-universal.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/twilightforest-1.12.2-3.11.1021-universal.jar</URL>
 			<Size>28721862</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1112,7 +1112,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="Thermal Cultivation" id="thermalcultivation" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ThermalCultivation-1.12.2-0.3.6.1-universal.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/ThermalCultivation-1.12.2-0.3.6.1-universal.jar</URL>
 			<Size>98845</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1126,7 +1126,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="Thermal Dynamics" id="thermaldynamics" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ThermalDynamics-1.12.2-2.5.6.1-universal.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/ThermalDynamics-1.12.2-2.5.6.1-universal.jar</URL>
 			<Size>728082</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1140,7 +1140,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="Thermal Expansion" id="thermalexpansion" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ThermalExpansion-1.12.2-5.5.7.1-universal.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/ThermalExpansion-1.12.2-5.5.7.1-universal.jar</URL>
 			<Size>2345139</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1154,7 +1154,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="Thermal Foundation" id="thermalfoundation" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ThermalFoundation-1.12.2-2.6.7.1-universal.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/ThermalFoundation-1.12.2-2.6.7.1-universal.jar</URL>
 			<Size>2219736</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1168,7 +1168,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="Thermal Innovation" id="thermalinnovation" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ThermalInnovation-1.12.2-0.3.6.1-universal.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/ThermalInnovation-1.12.2-0.3.6.1-universal.jar</URL>
 			<Size>182379</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1182,7 +1182,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="Tinkers&apos; Construct" id="tconstruct" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/TConstruct-1.12.2-2.13.0.183.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/TConstruct-1.12.2-2.13.0.183.jar</URL>
 			<Size>4023372</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1196,7 +1196,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="Toast Control" id="toastcontrol" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Toast%20Control-1.12.2-1.8.1.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Toast%20Control-1.12.2-1.8.1.jar</URL>
 			<Size>21668</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1210,7 +1210,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="Valkyrie Lib" id="valkyrielib" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/valkyrielib-1.12.2-2.0.20.1.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/valkyrielib-1.12.2-2.0.20.1.jar</URL>
 			<Size>733580</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1224,7 +1224,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="Waila" id="waila" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Hwyla-1.8.26-B41_1.12.2.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Hwyla-1.8.26-B41_1.12.2.jar</URL>
 			<Size>453778</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1238,7 +1238,7 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			</Meta>
 		</Module>
 		<Module name="Waystones" id="waystones" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Waystones_1.12.2-4.1.0.jar</URL>
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Waystones_1.12.2-4.1.0.jar</URL>
 			<Size>178994</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
