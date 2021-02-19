@@ -419,7 +419,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX, EpicSquid</authors>
 			</Meta>
 		</Module>
-		<Module name="EnderCore-1.12.2-0.5.76-core.jar" id="endercore" depends="" side="BOTH">
+		<Module name="EnderCore-1.12.2-0.5.76-core.jar" id="EnderCore-1.12.2-0.5.76-core.jar" depends="" side="BOTH">
 			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/memory_repo/com/enderio/core/EnderCore/1.12.2-0.5.76/EnderCore-1.12.2-0.5.76-core.jar.meta</URL>
 			<Size>2921</Size>
 			<Required>true</Required>
