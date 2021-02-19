@@ -804,6 +804,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/NuclearCraft-2.18y-1.12.2.jar</URL>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
+			<MD5>aea0ae1694ea4391310e940bee614647</MD5>
 		</Module>
 		<Module name="Morpheus" id="morpheus" depends="" side="BOTH">
 			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Morpheus-1.12.2-3.5.106.jar</URL>
