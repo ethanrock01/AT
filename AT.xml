@@ -94,14 +94,6 @@
 				<authors>Vazkii</authors>
 			</Meta>
 		</Module>
-		</Module>
-		<Module name="EnderCore-1.12.2-0.5.76.jar" id="EnderCore" depends="" side="BOTH">
-			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/endercore/download/2972849</URL>
-			<Size>647956</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>6164be012de6ee761e37f54a74074125</MD5>
-		</Module>
 		<Module name="AutoSave-1.12.2-1.0.11.jar" id="autosave" depends="" side="BOTH">
 			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/memory_repo/info/loenwind/autosave/AutoSave/1.12.2-1.0.11/AutoSave-1.12.2-1.0.11.jar.meta</URL>
 			<Size>8002</Size>
