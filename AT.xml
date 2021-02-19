@@ -1259,11 +1259,5 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 				<authors>BlayTheNinth</authors>
 			</Meta>
 		</Module>
-		<Module name="NuclearCraft-2.18y-1.12.2" id="NuclearCraft" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/NuclearCraft-2.18y-1.12.2.jar</URL>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>aea0ae1694ea4391310e940bee614647</MD5>
-		</Module>
 	</Server>
 </ServerPack>
