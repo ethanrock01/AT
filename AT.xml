@@ -318,7 +318,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/config.zip</URL>
 			<Size>1122382</Size>
 			<Required>true</Required>
-			<ModType>Regular</ModType>
+			<ModType inRoot="true">Extract</ModType>
 			<MD5>560c97669dcbe634f0517fc0ba866945</MD5>
 		</Module>
 		<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
