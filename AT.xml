@@ -800,19 +800,11 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>feldim2425</authors>
 			</Meta>
 		</Module>
-		<Module name="Morph" id="morph" depends="" side="BOTH">
-			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/Morph-1.12.2-7.2.1.jar</URL>
-			<Size>1061182</Size>
+		<Module name="NuclearCraft-2.18y-1.12.2" id="NuclearCraft" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/NuclearCraft-2.18y-1.12.2.jar</URL>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>15ae8dc0f0e92b4aea9e49e48380dc1d</MD5>
-			<Meta>
-				<credits></credits>
-				<description>This mod allows you to kill other entities and take their form.</description>
-				<version>1.12.2-7.2.1</version>
-				<url>http://ichun.me/mods/morph/</url>
-				<authors>iChun</authors>
-			</Meta>
+			<MD5>aea0ae1694ea4391310e940bee614647</MD5>
 		</Module>
 		<Module name="Morpheus" id="morpheus" depends="" side="BOTH">
 			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Morpheus-1.12.2-3.5.106.jar</URL>
