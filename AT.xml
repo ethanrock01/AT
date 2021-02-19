@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="at-modpack" abstract="false" name="Alpha Tau" newsUrl="about:blank" version="1.12.2" generateList="true" autoConnect="true" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+		<Loader type="Forge" version="14.23.5.2854" loadOrder="0"/>
+		<Module name="Actually Additions" id="actuallyadditions" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ActuallyAdditions-1.12.2-r152.jar</URL>
+			<Size>2958699</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4bb5c052581c729eb8a6adc60b376ec6</MD5>
+			<Meta>
+				<credits>Author: Ellpeck; Textures and Models: BootyToast, GlenthorLP, canitzp</credits>
+				<description>Do you want Automation? Wireless Transport? Better Machines? A cup o&apos; Coffee? Chests? Better Hoppers? Leaf Blowers? Faster Growth? Plants? Well, Actually Additions has all that and a lot more!</description>
+				<version>1.12.2-r152</version>
+				<url>http://github.com/Ellpeck/ActuallyAdditions</url>
+				<authors>Ellpeck</authors>
+			</Meta>
+		</Module>
+		<Module name="AppleSkin" id="appleskin" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/AppleSkin-mc1.12-1.0.14.jar</URL>
+			<Size>33683</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b435860d5cfa23bc53d3b8e120be91d4</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds various food-related HUD improvements</description>
+				<version>1.0.14</version>
+				<url></url>
+				<authors>squeek</authors>
+			</Meta>
+		</Module>
+		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/appliedenergistics2-rv6-stable-7.jar</URL>
+			<Size>4062630</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b8667d60a761d5b5ae3c8a15192f9e28</MD5>
+			<Meta>
+				<credits>AlgorithmX2</credits>
+				<description>A Mod about Matter, Energy and using them to conquer the world..</description>
+				<version>rv6-stable-7</version>
+				<url>http://ae2.ae-mod.info</url>
+				<authors>AlgorithmX2</authors>
+			</Meta>
+		</Module>
+		<Module name="ArchitectureCraft" id="architecturecraft" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/architecturecraft-1.12-3.98.jar</URL>
+			<Size>921733</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cc964d41fad4832a0850cf9da45d0414</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Distinguished architectural features for your Minecraft buildings.</description>
+				<version>@VERSION@</version>
+				<url>https://github.com/elytra/ArchitectureCraft</url>
+				<authors>gcewing (Original Developer), darkevilmac (Maintainer)</authors>
+			</Meta>
+		</Module>
+		<Module name="Aroma1997Core" id="aroma1997core" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Aroma1997Core-1.12.2-2.0.0.2.jar</URL>
+			<Size>398634</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f5199ab1a48d442af764071147a31747</MD5>
+			<Meta>
+				<credits>Code by Aroma1997, Textures by Schillaa</credits>
+				<description>This is basically a library used by most my other mods.</description>
+				<version>2.0.0.2</version>
+				<url>http://www.minecraftforum.net/topic/1679684-</url>
+				<authors>Aroma1997, Schillaa</authors>
+			</Meta>
+		</Module>
+		<Module name="AutoConfig-1.12.2-1.0.2.jar" id="autoconfig" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/memory_repo/info/loenwind/autoconfig/AutoConfig/1.12.2-1.0.2/AutoConfig-1.12.2-1.0.2.jar.meta</URL>
+			<Size>6735</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>56f633fc5678ab56256cf80f9c3437c2</MD5>
+		</Module>
+		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/AutoRegLib-1.3-32.jar</URL>
+			<Size>108306</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4e5a4b881c27b1e4502a9a16c00882ad</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Automatically item, block, and model registration for mods.</description>
+				<version>1.3-32</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii</authors>
+			</Meta>
+		</Module>
+		<Module name="AutoSave-1.12.2-1.0.11.jar" id="autosave" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/memory_repo/info/loenwind/autosave/AutoSave/1.12.2-1.0.11/AutoSave-1.12.2-1.0.11.jar.meta</URL>
+			<Size>8002</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>70a04c0c9daa2448e5fc69374fe9c884</MD5>
+		</Module>
+		<Module name="BD Lib" id="bdlib" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/bdlib-1.14.3.12-mc1.12.2.jar</URL>
+			<Size>1962731</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d2b8ba08414ac12737eb5ecbf92a19d9</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>1.14.3.12</version>
+				<url>bdew.net/mods/</url>
+				<authors>bdew</authors>
+			</Meta>
+		</Module>
+		<Module name="Better Advancements" id="betteradvancements" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/BetterAdvancements-1.12.2-0.1.0.77.jar</URL>
+			<Size>62668</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9009a4d080caf4d31e4ef8edba1f90cf</MD5>
+			<Meta>
+				<credits></credits>
+				<description>An improvement to the Advancementscreen</description>
+				<version>0.1.0</version>
+				<url>https://github.com/way2muchnoise/BetterAdvancements</url>
+				<authors>way2muchnoise</authors>
+			</Meta>
+		</Module>
+		<Module name="BetterFps-1.4.8" id="betterfps" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/BetterFps-1.4.8.jar</URL>
+			<Size>155196</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d36f4d3c0f96e99a9a1ad2e8eeda1fc4</MD5>
+		</Module>
+		<Module name="Biomes O&apos; Plenty" id="biomesoplenty" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar</URL>
+			<Size>4696621</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>61fcc4ffff205ca261e61d6772debc4d</MD5>
+			<Meta>
+				<credits>Tim Rurkowski, gamax92, GridMonkey, and many more</credits>
+				<description>Adds over 50 new biomes, blocks, and more!</description>
+				<version>7.0.1</version>
+				<url>http://mods.curse.com/mc-mods/minecraft/220318-biomes-o-plenty</url>
+				<authors>Adubbz, Amnet, Cheeserolls, Forstride, ted80</authors>
+			</Meta>
+		</Module>
+		<Module name="Brandon&apos;s Core" id="brandonscore" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/BrandonsCore-1.12.2-2.4.19.214-universal.jar</URL>
+			<Size>828580</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fde359e271e6d55975921a12a6d4fc0f</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Brandon&apos;s Core is a library mod used by most of my mods. It is no longer a core mod as the name would suggest but it does still contain a lot of the core code used by my mods including but not limited to base classes for various tiles, blocks and items, A powerful modular gui system and a lot of other miscellaneous utilities.</description>
+				<version>1.12.2-2.4.19.214</version>
+				<url>http://minecraft.curseforge.com/projects/brandons-core</url>
+				<authors>brandon3055</authors>
+			</Meta>
+		</Module>
+		<Module name="Building Gadgets" id="buildinggadgets" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/BuildingGadgets-2.8.4.jar</URL>
+			<Size>719492</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d1688618cf1df0e0aaab526fb4922b39</MD5>
+			<Meta>
+				<credits>The Forge and FML guys, McJty, Vazkii, CPW, and Pahimar for helping me learn java/forge modding.  Rorax for the textures!</credits>
+				<description>Adds some gadgets to help you build!</description>
+				<version>2.8.4</version>
+				<url>https://minecraft.curseforge.com/projects/building-gadgets</url>
+				<authors>Direwolf20</authors>
+			</Meta>
+		</Module>
+		<Module name="Carry On" id="carryon" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/carryon-1.12.2-1.12.3.15.jar</URL>
+			<Size>319099</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f14a5132b1a3350ad54a675b8ce6bbcd</MD5>
+			<Meta>
+				<credits>Tschipp, Purplicious_Cow, cy4n</credits>
+				<description>Carry On is a simple mod that improves game interaction by allowing players to pick up, carry, and place single block Tile Entities using only their empty hands.</description>
+				<version>1.12.3</version>
+				<url></url>
+				<authors>Tschipp, Purplicious_Cow, cy4n</authors>
+			</Meta>
+		</Module>
+		<Module name="Chameleon" id="chameleon" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Chameleon-1.12-4.1.3.jar</URL>
+			<Size>96859</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e42efa8f4fd42d2918128a826b740e98</MD5>
+			<Meta>
+				<credits>By jaquadro</credits>
+				<description>Shared code and render support for mods.  Used by jaquadro&apos;s mods.</description>
+				<version>1.12-4.1.3</version>
+				<url>http://www.jaquadro.com/</url>
+				<authors>jaquadro</authors>
+			</Meta>
+		</Module>
+		<Module name="ChickenASM-1.12-1.0.2.7" id="chickenasm" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/1.12.2/ChickenASM-1.12-1.0.2.7.jar</URL>
+			<Size>55622</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6afc6ad00fd6bacd0c5b35d8342f0f79</MD5>
+		</Module>
+		<Module name="Chisel" id="chisel" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Chisel-MC1.12.2-1.0.2.45.jar</URL>
+			<Size>4755282</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>54afc298f94e708f0e1cdf399200b2cb</MD5>
+			<Meta>
+				<credits>AUTOMATIC_MAIDEN for the original mod,
+asie for porting to 1.7.2,
+and Pokenfenn/Cricket for continuing it in 1.7.
+This mod uses textures from the Painterly Pack: http://painterlypack.net/.</credits>
+				<description>Adds in tons of fancy blocks for decoration, crafted using the Chisel.</description>
+				<version>MC1.12.2-1.0.2.45</version>
+				<url>https://minecraft.curseforge.com/projects/chisel</url>
+				<authors>tterrag, Drullkus, minecreatr</authors>
+			</Meta>
+		</Module>
+		<Module name="Chisels &amp; Bits" id="chiselsandbits" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/chiselsandbits-14.33.jar</URL>
+			<Size>737407</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e056e23559965f2ebabf47aad0fe51a3</MD5>
+			<Meta>
+				<credits>AlgorithmX2</credits>
+				<description>a mod about Sculpting, Decorating and Aesthetics</description>
+				<version>14.33</version>
+				<url>http://minecraft.curseforge.com/projects/chisels-bits</url>
+				<authors>AlgorithmX2</authors>
+			</Meta>
+		</Module>
+		<Module name="Client Tweaks" id="clienttweaks" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ClientTweaks_1.12.2-3.1.11.jar</URL>
+			<Size>30515</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0b0c58701276b30b005bca8aeef29f9c</MD5>
+			<Meta>
+				<credits>BlayTheNinth</credits>
+				<description>There, I fixed Minecraft for you.</description>
+				<version>3.1.11</version>
+				<url>http://balyware.com</url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+		<Module name="Clumps" id="clumps" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Clumps-3.1.2.jar</URL>
+			<Size>13792</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e0c4c4f04aeb0e0a48fc7534f9e7d6be</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Clumps xp orbs together .</description>
+				<version>3.1.2</version>
+				<url></url>
+				<authors>Jaredlll08</authors>
+			</Meta>
+		</Module>
+		<Module name="CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar</URL>
+			<Size>704330</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3b5e44db5ac96fb23a439590b6731a31</MD5>
+			<Meta>
+				<credits></credits>
+				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
+				<version>3.2.3.358</version>
+				<url>http://chickenbones.net/Pages/links.html</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+		</Module>
+		<Module name="CoFH Core" id="cofhcore" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/CoFHCore-1.12.2-4.6.6.1-universal.jar</URL>
+			<Size>848187</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f147d3b87f97bb317e1c37cba0dde002</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Required for all CoFH Mods. Also provides some customization options for Minecraft.</description>
+				<version>4.6.6.1</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+		</Module>
+		<Module name="CoFH World" id="cofhworld" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/CoFHWorld-1.12.2-1.4.0.1-universal.jar</URL>
+			<Size>505987</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f2bfd74e76b71bdee8a20a9243dd5cdf</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Provides advanced and highly customizable world generation capabilities.</description>
+				<version>1.4.0.1</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+		</Module>
+		<Module name="config" id="config" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/config.zip</URL>
+			<Size>1122382</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>560c97669dcbe634f0517fc0ba866945</MD5>
+		</Module>
+		<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/CraftingTweaks_1.12.2-8.1.9.jar</URL>
+			<Size>97854</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ffd1e2b5c4f244f4a7c6d4ee2e4c2090</MD5>
+			<Meta>
+				<credits>BlayTheNinth</credits>
+				<description>Allows you to rotate or clear the crafting matrix by the press of a button, in any (supported) crafting window.</description>
+				<version>8.1.9</version>
+				<url>http://balyware.com</url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+		<Module name="CTM" id="ctm" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/CTM-MC1.12.2-1.0.2.31.jar</URL>
+			<Size>199045</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>77a8bb5486c97e3eaa6f45e5bd768864</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allows resource packs to add connected textures, emissive rendering, and much more.</description>
+				<version>MC1.12.2-1.0.2.31</version>
+				<url>https://minecraft.curseforge.com/projects/ctm</url>
+				<authors>tterrag, Drullkus, minecreatr</authors>
+			</Meta>
+		</Module>
+		<Module name="Cyclic" id="cyclicmagic" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Cyclic-1.12.2-1.20.8.jar</URL>
+			<Size>3991322</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>59d66ffa7e35b14b80901cf5c6cc77eb</MD5>
+			<Meta>
+				<credits>Everyone who contributes to Minecraft, Minecraft Forge, and related projects</credits>
+				<description>Items, inventory features, world generation, simple machines, gameplay tweaks, new villagers, key bindings, and more. See config to disable absolutely anything.  Report issues and suggestions to https://github.com/Lothrazar/Cyclic/issues https://twitter.com/lothrazar </description>
+				<version>1.20.8</version>
+				<url> https://github.com/Lothrazar/Cyclic/</url>
+				<authors>Lothrazar</authors>
+			</Meta>
+		</Module>
+		<Module name="Draconic Evolution" id="draconicevolution" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Draconic-Evolution-1.12.2-2.3.27.353-universal.jar</URL>
+			<Size>5708541</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>812fd3a510f59293169849fa69565e6b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>This is a mod that was originally made for the Tolkiencraft mod pack but it has since evolved way beyond that. This mod adds a lot of extremely expensive and powerful end game items as well as a lot of random useful bits and pieces.</description>
+				<version>1.12.2-2.3.27.353</version>
+				<url>http://www.brandon3055.com/</url>
+				<authors>brandon3055</authors>
+			</Meta>
+		</Module>
+		<Module name="Elevator Mod" id="elevatorid" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ElevatorMod-1.12.2-1.4.1.jar</URL>
+			<Size>105538</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5b7d69e3a7721296137bc6e23aa4dbe1</MD5>
+			<Meta>
+				<credits>OpenBlocks Team</credits>
+				<description>OpenBlocks&apos; Elevator Block</description>
+				<version>1.12.2-1.4.1</version>
+				<url>https://minecraft.curseforge.com/projects/openblocks-elevator</url>
+				<authors>VsnGamer</authors>
+			</Meta>
+		</Module>
+		<Module name="Ender IO" id="enderio" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/EnderIO-1.12.2-5.2.66.jar</URL>
+			<Size>8846109</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bb115594256d21b416e33a89eeb38306</MD5>
+			<Meta>
+				<credits>By CrazyPants, with the help of many</credits>
+				<description>Compact conduits, painted things and all sorts of stuff and bling.</description>
+				<version>5.2.66</version>
+				<url>http://enderio.com</url>
+				<authors>CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX, EpicSquid</authors>
+			</Meta>
+		</Module>
+		<Module name="EnderCore-1.12.2-0.5.76-core.jar" id="endercore" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/memory_repo/com/enderio/core/EnderCore/1.12.2-0.5.76/EnderCore-1.12.2-0.5.76-core.jar.meta</URL>
+			<Size>2921</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a104e76eaddd40f0d88444f42a22ea83</MD5>
+		</Module>
+		<Module name="EnderStorage" id="enderstorage" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/EnderStorage-1.12.2-2.4.6.137-universal.jar</URL>
+			<Size>223250</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c66000e24e8c11675db554c644b31bda</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Stores your stuff in the END!</description>
+				<version>2.4.6.137</version>
+				<url>http://www.minecraftforum.net/topic/909223</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+		</Module>
+		<Module name="Extra Utilities 2" id="extrautils2" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/extrautils2-1.12-1.9.9.jar</URL>
+			<Size>3226408</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1ea591619e6d5204bf077214868772ef</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A bunch of useful things.</description>
+				<version>${version}</version>
+				<url></url>
+				<authors>RWTema</authors>
+			</Meta>
+		</Module>
+		<Module name="Fast Leaf Decay" id="fastleafdecay" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/FastLeafDecay-v14.jar</URL>
+			<Size>5200</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>18096ffb7f58d94f8e5a7bf2ff160f0f</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Increases leaf decay rates.
+
+Check out the config to change the decay rate!</description>
+				<version>v14</version>
+				<url>http://minecraft.curseforge.com/projects/fastleafdecay</url>
+				<authors>Olafski</authors>
+			</Meta>
+		</Module>
+		<Module name="FastFurnace" id="fastfurnace" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/FastFurnace-1.12.2-1.3.1.jar</URL>
+			<Size>10035</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b84cc8a587dbd35fef2dbc3e0b9435aa</MD5>
+			<Meta>
+				<credits></credits>
+				<description>2 fast boi</description>
+				<version>1.12.2-1.3.1</version>
+				<url></url>
+				<authors>Shadows_of_Fire</authors>
+			</Meta>
+		</Module>
+		<Module name="FastWorkbench" id="fastbench" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/FastWorkbench-1.12.2-1.7.3.jar</URL>
+			<Size>26515</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b55a31e4193204572acf05f78e0deedc</MD5>
+			<Meta>
+				<credits></credits>
+				<description>1 fast boi</description>
+				<version>1.12.2-1.7.3</version>
+				<url></url>
+				<authors>Shadows_of_Fire</authors>
+			</Meta>
+		</Module>
+		<Module name="Forestry" id="forestry" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/forestry_1.12.2-5.8.2.387.jar</URL>
+			<Size>5232265</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>367a01e7ff21262fa3dfc71e8fbd7332</MD5>
+			<Meta>
+				<credits>mistaqur, Binnie, CovertJaguar, MysteriousAges, Nirek, Nedelosk</credits>
+				<description>Trees, bees and more.</description>
+				<version>5.8.2.387</version>
+				<url>http://forestry.sengir.net/</url>
+				<authors>SirSengir, mezz</authors>
+			</Meta>
+		</Module>
+		<Module name="Forge Multipart CBE" id="forgemultipartcbe" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ForgeMultipart-1.12.2-2.6.2.83-universal.jar</URL>
+			<Size>1304958</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e45e04bc38dc373aaef0415c2e2d441d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Open source library for facilitation of multiple functional parts in the one block space.</description>
+				<version>2.6.2.83</version>
+				<url>https://github.com/Chicken-Bones/ForgeMultipart</url>
+				<authors>ChickenBones</authors>
+			</Meta>
+		</Module>
+		<Module name="FTB Library" id="ftblib" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/FTBLib-5.4.7.2.jar</URL>
+			<Size>934370</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ea749a3a3391d490ffcdf025e5de48d9</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>5.4.7.2</version>
+				<url>http://minecraft.curseforge.com/projects/ftblib</url>
+				<authors>LatvianModder</authors>
+			</Meta>
+		</Module>
+		<Module name="FTB Utilities" id="ftbutilities" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/FTBUtilities-5.4.1.131.jar</URL>
+			<Size>425832</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>94775ab675e0204523c9f267976b70d5</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>5.4.1.131</version>
+				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
+				<authors>LatvianModder</authors>
+			</Meta>
+		</Module>
+		<Module name="Galacticraft-Planets-1.12.2-4.0.2.281" id="galacticraftplanets" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Galacticraft-Planets-1.12.2-4.0.2.281.jar</URL>
+			<Size>3987531</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>84908698e7ea6b8d3a22e98f260cf3af</MD5>
+		</Module>
+		<Module name="GalacticraftCore-1.12.2-4.0.2.281" id="galacticraftcore" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/GalacticraftCore-1.12.2-4.0.2.281.jar</URL>
+			<Size>10631329</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>02dcb094b4de11028c196c44b0debe3b</MD5>
+		</Module>
+		<Module name="iChunUtil" id="ichunutil" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/iChunUtil-1.12.2-7.2.2.jar</URL>
+			<Size>581963</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bf13a2044ece544b449c7dc6f8aa40af</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Shared library mod required by several of iChun&apos;s Mods.</description>
+				<version>1.12.2-7.2.2</version>
+				<url>http://ichun.me/mods/ichunutil/</url>
+				<authors>iChun</authors>
+			</Meta>
+		</Module>
+		<Module name="Immersive Engineering" id="immersiveengineering" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ImmersiveEngineering-0.12-98.jar</URL>
+			<Size>6360959</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>affce9a7f7cb9ab257135da89314e07e</MD5>
+			<Meta>
+				<credits>All the great other Git Contributors, and the nerds on IRC!</credits>
+				<description>A tech based mod focused on realism.</description>
+				<version>0.12-98</version>
+				<url>https://github.com/BluSunrize/ImmersiveEngineering</url>
+				<authors>BluSunrize, Damien A.W. Hazard</authors>
+			</Meta>
+		</Module>
+		<Module name="Immersive Petroleum" id="immersivepetroleum" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/immersivepetroleum-1.12.2-1.1.9.jar</URL>
+			<Size>906018</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>57ba127778e579d10d705f9f8359d2e0</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds oil and oil processing features to Immersive Engineering.</description>
+				<version>1.1.9</version>
+				<url>https://github.com/Flaxbeard/ImmersivePetroleum</url>
+				<authors>Flaxbeard</authors>
+			</Meta>
+		</Module>
+		<Module name="ImmersiveEngineering-core-0.12-98.jar" id="immersiveengineeringcore" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-98/ImmersiveEngineering-core-0.12-98.jar.meta</URL>
+			<Size>165</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e62798c555f5520c31a7efb68c0ba170</MD5>
+		</Module>
+		<Module name="Industrial Foregoing" id="industrialforegoing" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/industrialforegoing-1.12.2-1.12.13-237.jar</URL>
+			<Size>1603134</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a9330399f14295d90e4ec3b5bb93f81f</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A small reinvention of Minefactory Reloaded.</description>
+				<version>1.12.13</version>
+				<url>https://minecraft.curseforge.com/projects/industrial-foregoing</url>
+				<authors>Buuz135</authors>
+			</Meta>
+		</Module>
+		<Module name="Inventory Tweaks" id="InvTweaks" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/InventoryTweaks-1.63.jar</URL>
+			<Size>263258</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1e2e33e5710394252abc4b014bc3dcbd</MD5>
+			<Meta>
+				<credits>By Jimeo Wan, updated for Forge by Kobata</credits>
+				<description>Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items.</description>
+				<version>1.63+release.109.220f184</version>
+				<url>https://github.com/Kobata/inventory-tweaks</url>
+				<authors>Jimeo Wan, Kobata</authors>
+			</Meta>
+		</Module>
+		<Module name="Iron Chest" id="ironchest" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ironchest-1.12.2-7.0.72.847.jar</URL>
+			<Size>956692</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>743179bc3a8f50751efbb019acc759a9</MD5>
+			<Meta>
+				<credits>By cpw, based on an original idea by Lishid</credits>
+				<description>New chests with larger sizes, with in-place upgrade items.
+The feature chest is the crystal chest, which is transparent - some inventory contents are visible without opening the chest</description>
+				<version>1.12.2-7.0.67.844</version>
+				<url>http://www.minecraftforum.net/topic/981855-</url>
+				<authors>cpw</authors>
+			</Meta>
+		</Module>
+		<Module name="JEI Integration" id="jeiintegration" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/jeiintegration_1.12.2-1.6.0.jar</URL>
+			<Size>25196</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>591f2eef8dc65ebc6850bce0acd88f41</MD5>
+			<Meta>
+				<credits>To Tonius for the original mod idea and source code.</credits>
+				<description>JEI Integration, the successor to NEI Integration by Tonius, is an addon for Just Enough Items (JEI) for Minecraft 1.10 and above. The mod provides JEI recipe handlers for other mods where otherwise absent. In addition to additional recipe handlers, it adds configurable tooltips which can provide insightful information for pack developers and tech-savvy players.</description>
+				<version>1.6.0</version>
+				<url>https://curseforge.com/minecraft/mc-mods/jei-integration</url>
+				<authors>SnowShock35</authors>
+			</Meta>
+		</Module>
+		<Module name="JourneyMap" id="journeymap" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/journeymap-1.12.2-5.7.1.jar</URL>
+			<Size>6990968</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8160b970fc14cff30dff2785bb9f964c</MD5>
+			<Meta>
+				<credits></credits>
+				<description>JourneyMap: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.12-1.4. Built: 2020-03-29-16:08:52.</description>
+				<version>1.12.2-5.7.1</version>
+				<url>http://journeymap.info</url>
+				<authors>techbrew, mysticdrew</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/jei_1.12.2-4.16.1.301.jar</URL>
+			<Size>653211</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1dee4be93d666e2228039c551e927b35</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Simple recipe and item helper.</description>
+				<version>4.16.1.301</version>
+				<url>https://github.com/mezz/JustEnoughItems</url>
+				<authors>mezz</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Resources" id="jeresources" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/JustEnoughResources-1.12.2-0.9.2.60.jar</URL>
+			<Size>222270</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>87a4666549a60d8fb423883dd4ee6232</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds Resources and Mob Drops to JEI</description>
+				<version>0.9.2</version>
+				<url></url>
+				<authors>way2muchnoise</authors>
+			</Meta>
+		</Module>
+		<Module name="LLibrary" id="llibrary" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/llibrary-1.7.20-1.12.2.jar</URL>
+			<Size>884550</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>218aefca8bd6bb8d9ff7dd877c1d277d</MD5>
+			<Meta>
+				<credits>pau101, BobMowzie, FiskFille, TheCyberBrick, WorldSEnder</credits>
+				<description>The lightweight Minecraft modding library</description>
+				<version>1.7.20-1.12.2</version>
+				<url>https://github.com/iLexiconn/LLibrary</url>
+				<authors>iLexiconn, gegy1000</authors>
+			</Meta>
+		</Module>
+		<Module name="llibrary-core-1.0.11-1.12.2.jar" id="llibrarycore" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/memory_repo/net/ilexiconn/llibrary-core/1.0.11-1.12.2/llibrary-core-1.0.11-1.12.2.jar.meta</URL>
+			<Size>8527</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2d0457fc2c10dbcd705b28c326954042</MD5>
+		</Module>
+		<Module name="MalisisCore" id="malisiscore" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/malisiscore-1.12.2-6.5.1.jar.disabled</URL>
+			<Size>1939783</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ccc183a97d7b9688a49bf29b61343f49</MD5>
+			<Meta>
+				<credits></credits>
+				<description>MalisisCore is a framework dedicated to simplify many processes required during a mod development.</description>
+				<version>1.12.2-6.5.1-SNAPSHOT</version>
+				<url>http://github.com/Ordinastie/MalisisCore</url>
+				<authors>Ordinastie, PaleoCrafter, AlmuraDev</authors>
+			</Meta>
+		</Module>
+		<Module name="Mantle" id="mantle" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Mantle-1.12-1.3.3.55.jar</URL>
+			<Size>843486</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1026f5f8d3c4997831decd9023ca65a6</MD5>
+			<Meta>
+				<credits>mDiyo, Sunstrike</credits>
+				<description>Shared code for Slime Knights mods and others.</description>
+				<version>1.3.3.55</version>
+				<url>https://github.com/SlimeKnights/Mantle</url>
+				<authors>boni, progWML6, Alexbegt</authors>
+			</Meta>
+		</Module>
+		<Module name="McJtyLib" id="mcjtylib_ng" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/mcjtylib-1.12-3.5.4.jar</URL>
+			<Size>544856</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>45ac9983da9fd2bc7fe3446b9f4287c1</MD5>
+			<Meta>
+				<credits>diesieben07, for being of constant assistance with my questions on modding and Forge in specific</credits>
+				<description>McJtyLib library for RFTools, Deep Resonance, ...</description>
+				<version>1.12-3.5.4</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+		</Module>
+		<Module name="Mekanism" id="mekanism" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Mekanism-1.12.2-9.8.3.390.jar</URL>
+			<Size>7863657</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e622b8365b9a1190b3b6cc042854e870</MD5>
+			<Meta>
+				<credits>unpairedbracket, CyanideX and many others</credits>
+				<description>Tools and Machines</description>
+				<version>1.12.2-9.8.3.390</version>
+				<url></url>
+				<authors>aidancbrady, thommy101, thiakil, pupnewfster, dizzyd</authors>
+			</Meta>
+		</Module>
+		<Module name="MicdoodleCore-1.12.2-4.0.2.281" id="micdoodlecore" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/MicdoodleCore-1.12.2-4.0.2.281.jar</URL>
+			<Size>53300</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>db0d1e7966382663d3b0888e26a8ded1</MD5>
+		</Module>
+		<Module name="MoreOverlays" id="moreoverlays" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/moreoverlays-1.15.1-mc1.12.2.jar</URL>
+			<Size>51284</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7b5200f51245b61ef149f7a33860e930</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds some overlays from NEI (Mob spawns, Chunk Bounds, Item Search)</description>
+				<version>1.15.1</version>
+				<url></url>
+				<authors>feldim2425</authors>
+			</Meta>
+		</Module>
+		<Module name="NuclearCraft-2.18y-1.12.2" id="NuclearCraft" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/NuclearCraft-2.18y-1.12.2.jar</URL>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>aea0ae1694ea4391310e940bee614647</MD5>
+		</Module>
+		<Module name="Morpheus" id="morpheus" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Morpheus-1.12.2-3.5.106.jar</URL>
+			<Size>21508</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>357dc3701a8c7d4109147c666f6a4300</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Morpheus is a server-only mod that adds sleep voting to a forge based server. When a player sleeps, all other players in the same dimension are notified so it is easier to coordinate.</description>
+				<version>1.12.2-3.5.106</version>
+				<url>http://www.curse.com/mc-mods/Minecraft/morpheus</url>
+				<authors>Quetzi</authors>
+			</Meta>
+		</Module>
+		<Module name="Mouse Tweaks" id="mousetweaks" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/MouseTweaks-2.10-mc1.12.2.jar</URL>
+			<Size>75170</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e4dcbf47c3f99a780681e3a3a9fcf9e9</MD5>
+			<Meta>
+				<credits>Various open-source mods from where I learned.</credits>
+				<description>A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.</description>
+				<version>2.10</version>
+				<url>http://www.minecraftforum.net/topic/1518185-</url>
+				<authors>YaLTeR</authors>
+			</Meta>
+		</Module>
+		<Module name="Mowzie&apos;s Mobs" id="mowziesmobs" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/mowziesmobs-1.5.8.jar</URL>
+			<Size>5185246</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>de6541439f9a436963b020f20164cbfa</MD5>
+			<Meta>
+				<credits>iLexiconn, RafaMv</credits>
+				<description>Mowzie&apos;s Mobs adds a variety of high-quality fantasy creatures to your Minecraft world.</description>
+				<version>1.5.8</version>
+				<url></url>
+				<authors>BobMowzie, pau101</authors>
+			</Meta>
+		</Module>
+		<Module name="OpenBlocks" id="openblocks" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/OpenBlocks-1.12.2-1.8.1.jar</URL>
+			<Size>3217616</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cd7f642f983669c6ae94d6a999d0d6e9</MD5>
+			<Meta>
+				<credits></credits>
+				<description>All the things you never thought you will ever need</description>
+				<version>1.8.1</version>
+				<url>http://openmods.info/</url>
+				<authors>Mikee, NeverCast, boq, Lyqyd</authors>
+			</Meta>
+		</Module>
+		<Module name="OpenModsLib" id="openmods" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/OpenModsLib-1.12.2-0.12.2.jar</URL>
+			<Size>2639587</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9c0606c553fbdf86e2f459c1cc40414d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Boring stuff for all that silly Open* mods</description>
+				<version>0.12.2</version>
+				<url>https://openmods.info/</url>
+				<authors>Mikee, NeverCast, boq, Lyqyd</authors>
+			</Meta>
+		</Module>
+		<Module name="OptiFine_1.12.2_HD_U_G5" id="optifine_" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/OptiFine_1.12.2_HD_U_G5.jar</URL>
+			<Size>2669107</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>54e561e441192cf009803ae95873c5d0</MD5>
+		</Module>
+		<Module name="OreExcavation" id="oreexcavation" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/OreExcavation-1.4.150.jar</URL>
+			<Size>184743</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>868369238ff464e7bd081d6d5fc17224</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allows players to mine whole veins of ore, cut down whole trees or any other tool based action in one go. Simple easy to understand configs are also provided for mod pack developers</description>
+				<version>1.4.150</version>
+				<url></url>
+				<authors>Funwayguy, Darkosto</authors>
+			</Meta>
+		</Module>
+		<Module name="p455w0rd&apos;s Library" id="p455w0rdslib" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/p455w0rdslib-1.12.2-2.3.161.jar</URL>
+			<Size>328793</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0f90369081c895ad54f5a011044d1779</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Library for containing commmon utilities used across my mods</description>
+				<version>1.12.2-2.3.161</version>
+				<url></url>
+				<authors>TheRealp455w0rd</authors>
+			</Meta>
+		</Module>
+		<Module name="Patchouli" id="patchouli" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Patchouli-1.0-23.6.jar</URL>
+			<Size>472464</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5450477c1ce7189c5ee11595d5e03a7c</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers</description>
+				<version>1.0-23.6</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii</authors>
+			</Meta>
+		</Module>
+		<Module name="Phosphor Lighting Engine" id="phosphor-lighting" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/phosphor-forge-mc1.12.2-0.2.7-universal.jar</URL>
+			<Size>920264</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>13f62131ab2fff6212301ee70f6bf5d8</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Consider pledging to my Patreon! Your support will go directly towards funding development of Phosphor and other performance enhancing mods. https://patreon.com/jellysquid
+
+Lighting engine performance optimizations and bug fixes for Minecraft. These improvements are based upon the work done by Mathe172 and PhiPro95. Without their work towards reverse engineering and diagnosing Minecraft&apos;s lighting performance crisis, this project would not have been possible.
+
+You can also follow development on my Twitter, if that&apos;s your thing: https://twitter.com/jellysquid_</description>
+				<version>1.12.2-0.2.7-SNAPSHOT</version>
+				<url>https://minecraft.curseforge.com/projects/phosphor-forge</url>
+				<authors>Angeline (@jellysquid)</authors>
+			</Meta>
+		</Module>
+		<Module name="Placebo" id="placebo" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Placebo-1.12.2-1.6.0.jar</URL>
+			<Size>76902</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a9ecfa296b2b1203ed5a68ed6c01833a</MD5>
+			<Meta>
+				<credits></credits>
+				<description>1 library boi</description>
+				<version>1.12.2-1.6.0</version>
+				<url></url>
+				<authors>Shadows_of_Fire</authors>
+			</Meta>
+		</Module>
+		<Module name="Quark" id="quark" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Quark-r1.6-179.jar</URL>
+			<Size>3877577</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dfcfa70d244f0435a5ff2b28037a324b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Small things.</description>
+				<version>r1.6-179</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii, wiiv</authors>
+			</Meta>
+		</Module>
+		<Module name="RandomPatches" id="randompatches" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/randompatches-1.12.2-1.22.1.10.jar</URL>
+			<Size>293231</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dfbb30ff396e6426ba9a284b04c7bcf3</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A bunch of miscellaneous patches for Minecraft.</description>
+				<version>1.12.2-1.22.1.10</version>
+				<url>https://minecraft.curseforge.com/projects/randompatches</url>
+				<authors>TheRandomLabs</authors>
+			</Meta>
+		</Module>
+		<Module name="ReAuth" id="reauth" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/reauth-3.6.0.jar</URL>
+			<Size>30446</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6024686e40df10b8739042ea2dce7f1a</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A Mod to renew your Session</description>
+				<version>3.6.0</version>
+				<url>http://minecraft.curseforge.com/projects/reauth</url>
+				<authors>TechnicianLP</authors>
+			</Meta>
+		</Module>
+		<Module name="Redstone Flux" id="redstoneflux" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/RedstoneFlux-1.12-2.1.1.1-universal.jar</URL>
+			<Size>31802</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>93b1715f05be1878da93fca36dd37f2a</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>The Redstone Flux API - the cornerstone of Energy Transfer in modded Minecraft since 1.6.4.</description>
+				<version>2.1.1.1</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+		</Module>
+		<Module name="Refined Storage" id="refinedstorage" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/refinedstorage-1.6.16.jar</URL>
+			<Size>1912377</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0b5e41f29c3ceb1db560531fef9f55a2</MD5>
+			<Meta>
+				<credits></credits>
+				<description>An elegant solution to your hoarding problem</description>
+				<version>1.6.16</version>
+				<url>https://refinedstorage.raoulvdberge.com</url>
+				<authors>Refined Storage contributors</authors>
+			</Meta>
+		</Module>
+		<Module name="Refined Storage Addons" id="refinedstorageaddons" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/refinedstorageaddons-0.4.5.jar</URL>
+			<Size>26804</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d840373cb0ce3752e92c3840f64d8d90</MD5>
+			<Meta>
+				<credits></credits>
+				<description>An addon mod for Refined Storage</description>
+				<version>0.4.5</version>
+				<url></url>
+				<authors>Refined Storage Addons contributors</authors>
+			</Meta>
+		</Module>
+		<Module name="RFTools" id="rftools" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/rftools-1.12-7.73.jar</URL>
+			<Size>2895803</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3af6f5864243b044a8dd6f2cb1a4b0cf</MD5>
+			<Meta>
+				<credits>diesieben07, for being of constant assistance with my questions on modding and Forge in specific</credits>
+				<description>RedFlux tools</description>
+				<version>1.12-7.73</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+		</Module>
+		<Module name="Shadowfacts&apos; Forgelin" id="forgelin" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Forgelin-1.8.4.jar</URL>
+			<Size>6278399</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2da79fce72265eab0541e565636d389d</MD5>
+			<Meta>
+				<credits>Emberwalker, for the original Forgelin</credits>
+				<description>Kotlin helper library for Forge.</description>
+				<version>1.8.4</version>
+				<url>https://github.com/shadowfacts/Forgelin</url>
+				<authors>shadowfacts</authors>
+			</Meta>
+		</Module>
+		<Module name="Storage Drawers" id="storagedrawers" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/StorageDrawers-1.12.2-5.4.2.jar</URL>
+			<Size>605947</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0f658c7cba3e6793abbcb934b4810902</MD5>
+			<Meta>
+				<credits>By jaquadro</credits>
+				<description>Multi-drawer storage blocks for quick storage and retrieval.</description>
+				<version>1.12.2-5.4.2</version>
+				<url>http://www.jaquadro.com/</url>
+				<authors>jaquadro</authors>
+			</Meta>
+		</Module>
+		<Module name="Tesla Core Lib" id="teslacorelib" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/tesla-core-lib-1.12.2-1.0.17.jar</URL>
+			<Size>1138988</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6c76ff8a9251852d00d9a648e72ad25c</MD5>
+			<Meta>
+				<credits>The Forge, FML guys and my wife.</credits>
+				<description>Just the most awesome lib mod out there!</description>
+				<version>1.12.2-1.0.17</version>
+				<url></url>
+				<authors>Face_of_Cat</authors>
+			</Meta>
+		</Module>
+		<Module name="The One Probe" id="theoneprobe" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/theoneprobe-1.12-1.4.28.jar</URL>
+			<Size>301893</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>63849a13a822b3b56308245eb8074a7e</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A Probe to rule them all!</description>
+				<version>1.12-1.4.28</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+		</Module>
+		<Module name="The Twilight Forest" id="twilightforest" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/twilightforest-1.12.2-3.11.1021-universal.jar</URL>
+			<Size>28721862</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0933760943721154f3208782306f04d6</MD5>
+			<Meta>
+				<credits>By Benimatic (Ben Mazur)</credits>
+				<description>An enchanted forest dimension.</description>
+				<version>3.11.1021</version>
+				<url>https://minecraft.curseforge.com/projects/the-twilight-forest</url>
+				<authors>Benimatic, AtomicBlom, Drullkus, Killer_Demon, quadraxis, Tamaized, williewillus</authors>
+			</Meta>
+		</Module>
+		<Module name="Thermal Cultivation" id="thermalcultivation" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ThermalCultivation-1.12.2-0.3.6.1-universal.jar</URL>
+			<Size>98845</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>28970430074736ae6efbe4f7c353b30a</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Thermal gets Agrarian - provides options for farming and related activities!</description>
+				<version>0.3.6.1</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+		</Module>
+		<Module name="Thermal Dynamics" id="thermaldynamics" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ThermalDynamics-1.12.2-2.5.6.1-universal.jar</URL>
+			<Size>728082</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>38a0c024f5775b0cf783de839033f8db</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Thermal gets Dynamic! Adds ducts - blocks for transporting Items, Fluids, Redstone Flux, and even Players!</description>
+				<version>2.5.6.1</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+		</Module>
+		<Module name="Thermal Expansion" id="thermalexpansion" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ThermalExpansion-1.12.2-5.5.7.1-universal.jar</URL>
+			<Size>2345139</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0bf91e166b05e83d22455a9c7ec395bb</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Expanding Minecraft Thermally - provides new options for automation and processing!</description>
+				<version>5.5.7.1</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+		</Module>
+		<Module name="Thermal Foundation" id="thermalfoundation" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ThermalFoundation-1.12.2-2.6.7.1-universal.jar</URL>
+			<Size>2219736</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6eca041bbf28949b60ecf1179d561156</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>The Foundation of a Thermally enhanced world!</description>
+				<version>2.6.7.1</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+		</Module>
+		<Module name="Thermal Innovation" id="thermalinnovation" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/ThermalInnovation-1.12.2-0.3.6.1-universal.jar</URL>
+			<Size>182379</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>320accf690ccc1c8a23679beb63fb615</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Thermal Technology marches on. Adds Thermal-style tools and equipment!</description>
+				<version>0.3.6.1</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+		</Module>
+		<Module name="Tinkers&apos; Construct" id="tconstruct" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/TConstruct-1.12.2-2.13.0.183.jar</URL>
+			<Size>4023372</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>710d64342d41042b7d6ced891448e727</MD5>
+			<Meta>
+				<credits>Slime Knights, mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox</credits>
+				<description>A little of this, a little of that, a lot of tinkering, and a lot of tools</description>
+				<version>1.12.2-2.13.0.183</version>
+				<url>https://github.com/SlimeKnights/TinkersConstruct</url>
+				<authors>boni, KnightMiner</authors>
+			</Meta>
+		</Module>
+		<Module name="Toast Control" id="toastcontrol" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Toast%20Control-1.12.2-1.8.1.jar</URL>
+			<Size>21668</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e431fec0248132e5c4d03ad70bd4dc6b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Control what toasts are enabled, because some of them are useless.</description>
+				<version>1.12.2-1.8.1</version>
+				<url></url>
+				<authors>Shadows_of_Fire</authors>
+			</Meta>
+		</Module>
+		<Module name="Valkyrie Lib" id="valkyrielib" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/valkyrielib-1.12.2-2.0.20.1.jar</URL>
+			<Size>733580</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e9bfd5d4274395d87c0bea745a37223a</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>1.12.2-2.0.20.1</version>
+				<url>http://minecraft.curseforge.com/projects/valkyrielib</url>
+				<authors>ValkyrieofNight</authors>
+			</Meta>
+		</Module>
+		<Module name="Waila" id="waila" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Hwyla-1.8.26-B41_1.12.2.jar</URL>
+			<Size>453778</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bca1c069d9171d331d211d24e8a3b770</MD5>
+			<Meta>
+				<credits></credits>
+				<description>You are using Hwyla, a fork of Waila. You can find more information on the Hwyla CurseForge page.</description>
+				<version>1.8.26</version>
+				<url></url>
+				<authors>ProfMobius, TehNut</authors>
+			</Meta>
+		</Module>
+		<Module name="Waystones" id="waystones" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/blob/mods/Waystones_1.12.2-4.1.0.jar</URL>
+			<Size>178994</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5159122949ffb79b80a341135673e8f8</MD5>
+			<Meta>
+				<credits>Developed by BlayTheNinth. Includes item icons by @JoeCreates released under CC-BY-SA 3.0</credits>
+				<description>Teleport back to activated waystones. For Survival, Adventure or Servers.</description>
+				<version>4.1.0</version>
+				<url></url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+		<Module name="NuclearCraft-2.18y-1.12.2" id="NuclearCraft" depends="" side="BOTH">
+			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/NuclearCraft-2.18y-1.12.2.jar</URL>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>aea0ae1694ea4391310e940bee614647</MD5>
+		</Module>
+	</Server>
+</ServerPack>
