@@ -1280,6 +1280,12 @@ You can also follow development on my Twitter, if that&apos;s your thing: https:
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>f6bf337a09fcfa19aedc840f19cac222</MD5>
+				</Module>
+		<Module name="Controlling-3.0.10" id="Controlling" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/controlling/download/3025548/file</URL>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7696135b09e93265ff190e1ee97a8257</MD5>
 		</Module>
 	</Server>
 </ServerPack>
