@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="at-modpack" abstract="false" name="Alpha Tau" newsUrl="http://cnn.com" iconUrl="https://github.com/ethanrock01/AT/raw/main/server-icon.png" version="1.12.2" serverAddress="135.148.11.9:25568" generateList="true" autoConnect="false" revision="1.03" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="at-modpack" abstract="false" name="Alpha Tau" newsUrl="http://cnn.com" iconUrl="https://github.com/ethanrock01/AT/raw/main/server-icon.png" version="1.12.2" serverAddress="135.148.11.9:25568" generateList="true" autoConnect="false" revision="1.04" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Loader type="Forge" version="1.12.2-14.23.5.2854" loadOrder="0"/>
 		<Module name="Actually Additions" id="actuallyadditions" depends="" side="BOTH">
 			<URL priority="0">https://github.com/ethanrock01/AT/raw/mods/ActuallyAdditions-1.12.2-r152.jar</URL>
